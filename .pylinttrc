@@ -1,0 +1,23 @@
+[FORMAT]
+
+# Rivin maksimipituus on 80 merkkiä
+max-line-length=80
+
+# Sisennyksen leveys on 4 välilyöntiä
+indent-string="    "
+
+
+[REFACTORING]
+
+# Sisäkkäisiä lohkoja saa olla enintään 2
+max-nested-blocks=2
+
+
+[DESIGN]
+
+# Funktiossa saa olla enintään 10 lausetta
+max-statements=10
+
+# Oma valitsemani sääntö:
+# Funktiossa saa olla enintään 4 parametria
+max-args=4
