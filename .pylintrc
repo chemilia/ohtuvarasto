@@ -1,5 +1,7 @@
 [MAIN]
 init-hook='import sys; sys.path.append("./src")'
+ignore-paths=src/ui,src/tests
+ignore-paths=.venv/.*
 
 [FORMAT]
 
