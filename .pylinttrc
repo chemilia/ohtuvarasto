@@ -1,3 +1,6 @@
+[MAIN]
+init-hook='import sys; sys.path.append("./src")'
+
 [FORMAT]
 
 # Rivin maksimipituus on 80 merkkiä
